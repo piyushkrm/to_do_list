@@ -27,3 +27,25 @@ body {
     border-bottom: 0.5px solid white;
     margin-bottom: 20px;
 }
+
+.task {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#taskInput {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+}
+
+#addTaskBtn {
+    background-color: rgb(244, 242, 153);
+    padding: 4px;
+    border-radius: 5px;
+}
