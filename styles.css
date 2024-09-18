@@ -49,3 +49,18 @@ button:hover {
     padding: 4px;
     border-radius: 5px;
 }
+
+ul {
+    list-style: none;
+    padding: 15px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
